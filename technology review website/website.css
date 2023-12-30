@@ -1,0 +1,183 @@
+body{
+    background-color: burlywood;
+}
+
+
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+
+.slide {
+    flex: 0 0 100%;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+
+
+}
+
+
+nav {
+
+    background-image: url(img/nabr\ img.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo img {
+    height: 50px; 
+    
+}
+.logo{
+    color: rgb(102, 190, 190);
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    margin-right: 20px;
+}
+
+li:last-child {
+    margin-right: 0;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+li a:hover {
+    background-color: rgb(60, 142, 134);
+    color: black;
+}
+
+
+
+
+footer {
+    background-image: url(img/nabr\ img.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+}
+
+.footer-section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.footer-section img {
+    width: 25px; 
+    height: auto;
+}
+
+.about-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    display: flex;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.about-content img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.about-content .text {
+    max-width: 600px;
+}
+
+.about-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-content p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+h1{
+    text-decoration: underline;
+    text-shadow: 8px 8px 8px red;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+p{
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.about-container img{
+    width: 200%;
+}
+.i{
+    color: aliceblue;
+    padding-top: 2%;
+}
+
+#copyright{
+    background-color: black;
+    text-align: center;
+    color: blanchedalmond;
+}
